@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Patua One", cursive;
+  line-height: 1.5;
+  color: hsl(0, 0%, 100%);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+.bg-primary-400 {
+  background-color: hsl(89, 85%, 33%);
+}
+
+.primary-btn {
+  min-height: 3.125em;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(204, 100%, 1%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.wrapper {
+  border-radius: 1rem;
+  width: min(100% - 3rem, 65ch);
+  margin-inline: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper h2 {
+  padding: 2rem;
+}
+.wrapper form[data-js=multiplication-form] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 1rem;
+}
+.wrapper form[data-js=multiplication-form] .form-control {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.wrapper form[data-js=multiplication-form] .form-control label {
+  margin-right: 0.5rem;
+}
+.wrapper form[data-js=multiplication-form] .form-control input {
+  padding: 0.6rem 0.4rem;
+  max-width: 6.25em;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */

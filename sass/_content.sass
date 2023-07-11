@@ -1,0 +1,36 @@
+@use 'variables'
+
+.wrapper
+  border-radius: 1rem
+  width: min(100% - 3rem, 65ch)
+  margin-inline: auto
+
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  
+  h2
+    padding: 2rem
+  
+  form[data-js="multiplication-form"]
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-flow: column wrap
+    padding: 1rem
+
+    .form-control
+      display: flex
+      align-items: center
+      padding: 1rem
+
+      label
+        margin-right: 0.5rem
+      
+      input
+        padding: .6rem .4rem
+        max-width: 6.25em
+        border: none
+        border-radius: 5px
+        text-align: center

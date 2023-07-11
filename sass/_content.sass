@@ -34,3 +34,24 @@
         border: none
         border-radius: 5px
         text-align: center
+  
+  .multiplication-table
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 2rem 1rem
+    background-color: variables.$clr-secondary
+  
+  div[data-js="multiplication-operations"]
+    .row
+      display: flex
+      justify-content: center
+      border: 1px solid variables.$clr-primary
+      border-bottom: none
+      padding: .5rem
+
+      &:last-child
+        border: 1px solid variables.$clr-primary
+
+      .result
+        margin-left: .4rem

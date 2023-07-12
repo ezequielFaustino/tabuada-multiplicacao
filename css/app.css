@@ -32,6 +32,7 @@ h3 {
   background-color: hsl(204, 100%, 1%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  margin: 0 0.3rem;
 }
 
 .wrapper {

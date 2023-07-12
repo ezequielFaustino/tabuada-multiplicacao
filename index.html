@@ -16,7 +16,7 @@
 <body>
   <div class="wrapper bg-primary-400">
     <h2>Digite o número e confirme para gerar uma tabuada:</h2>
-
+    
     <form data-js="multiplication-form">
       <div class="form-control">
         <label for="number">Tabuada do:</label>
@@ -28,7 +28,7 @@
         <input type="number" data-js="multiplicator" value="10">
       </div>
 
-      <input type="submit" value="Calcular" class="primary-btn">
+      <button class="primary-btn" data-js="submit-btn">Calcular</button>
     </form>
 
     <div class="multiplication-table">
@@ -38,8 +38,9 @@
 
       </div>
     </div>
-
   </div>
+
+  <script src="js/app.js"></script>
 </body>
 
 </html>

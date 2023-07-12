@@ -2,7 +2,7 @@ const multiplicationForm = document.querySelector('[data-js="multiplication-form
 const submitBtn = document.querySelector('[data-js="submit-btn"]')
 const multiplicationTitle = document.querySelector('[data-js="multiplication-title"] span')
 
-const dontPageRefresh = (event) => {
+const dontRefreshPage = (event) => {
   event.preventDefault()
 }
 
@@ -35,7 +35,7 @@ const clickEvent = (e) => {
   multiplicationTitle.innerText = `${number}`
 }
 
-multiplicationForm.addEventListener('submit', dontPageRefresh)
+multiplicationForm.addEventListener('submit', dontRefreshPage)
 submitBtn.onpointerdown = clickEvent
 
 
